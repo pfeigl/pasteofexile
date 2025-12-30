@@ -40,7 +40,10 @@ impl SvgTree {
             (One, Some("3_26") | Some("3.26")) => "/assets/3.26.svg",
             (One, _) => "/assets/3.27.svg",
             (Two, Some("0_1") | Some("0.1")) => "/assets/4.0.svg",
-            (Two, _) => "/assets/4.0.svg",
+            (Two, Some("0_2") | Some("0.2")) => "/assets/4.0.svg",
+            (Two, Some("0_3") | Some("0.3")) => "/assets/4.0.svg",
+            (Two, Some("0_4") | Some("0.4")) => "/assets/4.4.svg",
+            (Two, _) => "/assets/4.4.svg",
         }
     }
 
